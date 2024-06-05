@@ -1,0 +1,8 @@
+version: '2'
+services:
+  tap-plugin-test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app/:cached
